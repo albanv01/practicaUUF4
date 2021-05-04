@@ -3,16 +3,11 @@
 Codigo de ejemplo para utilizar el paquete:
 
 import self as self
-
 from Almacen import Almacen
-
 from Clases.Bebida import Bebida
-
-
 class Main:
     a = Almacen
     bebida = Bebida
-
     bebida = [[1, 1, 'Bezoya', 2, 2, 'Guadarrama', '', ''],
               [2, 1, 'Fanta', 1.5, 1.5, '', 'True', 'Free'],
               [3, 1, 'Coca-Cola', 1.75, 2, '', 'False', '5%'],
