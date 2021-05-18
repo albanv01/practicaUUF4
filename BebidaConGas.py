@@ -1,7 +1,6 @@
-from Clases.Bebida import Bebida
 
 
-class Agua(Bebida):
+class BebidaConGas():
     def __init__(self, bebida, porcentajeAzucar, promocion, id, nom, marca, precio, litros):
         super().__init__(id, nom, marca, precio, litros)
         self.bebida = bebida

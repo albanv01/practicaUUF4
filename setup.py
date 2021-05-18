@@ -3,7 +3,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.0"
+VERSION = "1.1.5"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -83,7 +83,7 @@ def read(file_name=None, is_encoding=True, ignore_raises=False):
 
 
 setup(
-    name='AlmacenBebidasAlba',
+    name='AlmacenBebidasAlba1',
     version=VERSION,
     license=read("LICENSE", is_encoding=False, ignore_raises=True),
     packages=find_packages(),

@@ -1,7 +1,7 @@
 import self as self
 
-from Almacen import Almacen
-from Clases.Bebida import Bebida
+from AlmacenBebidasAlba import Almacen
+from AlmacenBebidasAlba import Bebida
 
 
 class Main:
